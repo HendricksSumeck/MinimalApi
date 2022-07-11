@@ -7,16 +7,16 @@ e enumerando os divisores em outra lista que são primos.
 Foi implementado uma WebApi documentada com o swagger e testes unitarios com Xunit
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HendricksSumeck/BrickBreaker?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HendricksSumeck/MinimalApi?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/HendricksSumeck/BrickBreaker">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/HendricksSumeck/MinimalApi">
 
-  <a href="https://github.com/HendricksSumeck/BrickBreaker">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HendricksSumeck/BrickBreaker">
+  <a href="https://github.com/HendricksSumeck/MinimalApi">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HendricksSumeck/MinimalApi">
   </a>
 
-  <a href="https://github.com/HendricksSumeck/BrickBreaker/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/HendricksSumeck/BrickBreaker?style=social">
+  <a href="https://github.com/HendricksSumeck/MinimalApi/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/HendricksSumeck/MinimalApi?style=social">
   </a>
 </p>
 
@@ -52,23 +52,51 @@ Além disto é bom ter uma IDE para trabalhar com o código como [Visual Studio]
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone git@github.com:HendricksSumeck/MinimalApi.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+$ cd MinimalApi
 
-# Vá para a pasta server
-$ cd server
+# Vá para a pasta MinimalApi
+$ cd MinimalApi
 
-# Instale as dependências
-$ npm install
+# Execute a aplicação
+$ dotnet run
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+# O servidor inciará na porta:5000 - acesse https://localhost:5000/swagger/index.html
 ```
 
+### <img src="https://img.icons8.com/color/26/000000/docker.png"/> Inicializando Docker do projeto
+
+```bash
+# Clone este repositório
+$ git clone git@github.com:HendricksSumeck/MinimalApi.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd MinimalApi
+
+# Execute o comando
+$ docker-compose -p pgslq -d
+```
+
+### <img src="https://img.icons8.com/fluency/26/000000/database.png"/> Rodando as migrações do projeto
+
+```bash
+# Clone este repositório
+$ git clone git@github.com:HendricksSumeck/MinimalApi.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd MinimalApi
+
+# Vá para a pasta MinimalApi
+$ cd MinimalApi
+
+# Criar as migrações do banco de dados
+$ dotnet ef --startup-project MinimalApi/ migrations add Inicial --context AppDataContext
+
+# Executar para criar o banco
+$ dotnet ef database update --startup-project MinimalApi/ --context AppDataContext
+```
 
 ## 🚀 Autor
 
