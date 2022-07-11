@@ -1,10 +1,10 @@
 # 🔗 MinimalApi
 
-Projeto desenvolvido com .NET Core 6.0 e C# resolvendo um desafio onde um cliente envia 
-um numero e esse numero e decomposto, retornando uma lista com todos os seus divisores
-e enumerando os divisores em outra lista que são primos.
+APIs mínimas são arquitetadas para criar APIs HTTP com dependências mínimas. Eles são ideais para microsserviços e aplicativos 
+que desejam incluir apenas os arquivos, recursos e dependências mínimos no ASP.NET Core.
 
-Foi implementado uma WebApi documentada com o swagger e testes unitarios com Xunit
+Este projeto implementa os conceitos básicos de construção de uma API Web mínima com ASP.NET Core integradas a um banco de dados PostgreSQL com Docker.
+
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HendricksSumeck/MinimalApi?color=%2304D361">
