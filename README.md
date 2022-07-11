@@ -24,13 +24,6 @@ Este projeto implementa os conceitos básicos de construção de uma API Web mí
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- ![NET Badge](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
-- ![C# Badge](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-- ![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-- ![Docker Badge](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-- ![windows Badge](https://img.shields.io/badge/Windows-017AD7?style=flat-square&logo=windows&logoColor=white)
-- ![Git Badge](https://img.shields.io/badge/Git-E34F26?style=flat-square&logo=git&logoColor=white)
-
 ![NET Badge](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
 ![C# Badge](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
